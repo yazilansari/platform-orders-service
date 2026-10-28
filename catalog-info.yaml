@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-first-service
-  description: Updated directly from GitHub
+  name: platform-orders-service
+  description: Order management microservice from GitHub
   annotations:
-    github.com/project-slug: yazilansari/platform-first-service
+    github.com/project-slug: yazilansari/platform-orders-service
   tags:
-    - learning
+    - nodejs
     - backend
 spec:
   type: service
