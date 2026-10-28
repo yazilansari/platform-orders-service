@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-first-service
+  description: My first custom service in Backstage
+  annotations:
+    github.com/project-slug: yazilansari/platform-first-service
+  tags:
+    - learning
+    - backend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/platform-team
+  system: examples
