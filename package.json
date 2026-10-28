@@ -1,0 +1,10 @@
+{
+  "name": "platform-orders-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orders service managed by Backstage",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  }
+}
