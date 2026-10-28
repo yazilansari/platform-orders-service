@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: my-first-service
-  description: Updated directly from GitHubbb
+  description: Updated directly from GitHub
   annotations:
     github.com/project-slug: yazilansari/platform-first-service
   tags:
